@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Francois+One|Roboto|Satisfy">
 
     <!-- CSS here -->
-
+	<style>
+        .plain {color: purple; font-style: italic; display: none;}	
+	</style>
     
 
 </head>
@@ -38,9 +40,11 @@
     <div STYLE="font-family: 'Noto Sans','Siemreap';">
     <h3><a href="res/list_resource.html">List of all resources<a></h3>
     <h3>ខ្លឹមសារ ៖</h3>
-    <p>
-        ពុទ្ធំ សរណំ គច្ឆាមិ ។
-        ធម្មំ សរណំ គច្ឆាមិ ។
+    <p class="pali">ពុទ្ធំ សរណំ គច្ឆាមិ ។ </p>
+    <p class="plain">ខ្ញុំព្រះ​ករុណ សូមដល់នូវព្រះពុទ្ធ ជាទីពឹងទីរឭក ។ </p>
+        
+    <p class="pali">ធម្មំ សរណំ គច្ឆាមិ ។​ </p>
+    <p class="pali">    
         សង្ឃំ សរណំ គច្ឆាមិ ។
         ទុតិយម្បិ ពុទ្ធំ សរណំ គច្ឆាមិ ។
         ទុតិយម្បិ ធម្មំ សរណំ គច្ឆាមិ ។
@@ -62,7 +66,6 @@
             $("#why-heading").click(function(){
                 $("#why-body").toggle();
                 });
-        	});
 	</script>
 
 </body>
